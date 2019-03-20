@@ -1,0 +1,54 @@
+{
+  "basics":
+    {
+      "img":"images/download.jpg",
+      "name":"pooja",
+    "email":"pooja1234@gmail.com"
+  },
+  "career":
+  {
+    "info":"i want to seek a position where i can explore my thoughts and skills for the benefits of the organisation"
+  },
+  "Educational_Details":[
+    {
+  "sno":"1",
+  "degree":"Btech",
+  "institute":"ABC",
+  "yop":"2018",
+  "per":"79%"
+    },
+    {
+      "sno":"2",
+      "degree":"inter",
+      "institute":"XYZ",
+      "yop":"2015",
+      "per":"90%"
+    },
+    {
+  "sno":"3",
+  "degree":"SSC",
+  "institute":"PQR",
+  "yop":"2014",
+  "per":"99%"
+    }
+
+  ],
+  "skills":[
+    {
+      "info":"c"
+    },
+    {
+      "info":"c++"
+    },
+    {
+      "info":"java"
+    },
+  {
+      "info":"php"
+    },
+    {
+      "info":"html"
+    }
+
+  ]
+}

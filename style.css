@@ -1,0 +1,144 @@
+body{
+  background:#38F38E  ;
+}
+.parent{
+  background:white;
+  display: flex;
+  margin: 8%;
+  padding:5%;
+  justify-content: space-around;
+  border-radius:15px;
+}
+.child1{
+  background:#E973E7  ;
+  text-align: center;
+  color:blue;
+margin:2%;
+  padding: 2%;
+    box-shadow: 5px 5px 5px black;
+    border-radius:15px;
+}
+.child2{
+  background:#E973E7  ;
+  text-align: center;
+  color:red;
+  margin:2%;
+padding:  2%;
+border-radius:15px;
+  box-shadow: 5px 5px 5px black;
+}
+.child3{
+  background:#E973E7  ;
+  text-align: center;
+  border-radius:15px;
+  color:pink;
+  margin:2%;
+  padding: 2%;
+  box-shadow: 5px 5px 5px black;
+}
+
+.child1 img{
+  border-radius:15px;
+}
+.child2 img{
+  border-radius:15px;
+}
+.child3 img{
+  border-radius:15px;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+  body{
+    background:#73E9D6;
+  }
+  .parent{
+    background:white;
+    display: flex;
+    flex-direction: column;
+    margin:8%;
+    padding:5%;
+    justify-content: space-around;
+    border-radius:15px;
+  }
+  .child1{
+    width: 80%;
+    background:#D2B4DE ;
+    text-align: center;
+    color:blue;
+  margin:2%;
+    padding: 2%;
+      box-shadow: 5px 5px 5px black;
+      border-radius:15px;
+  }
+  .child2{
+    width: 80%;
+    background:#D2B4DE;
+    text-align: center;
+    color:red;
+    margin:2%;
+  padding:  2%;
+  border-radius:15px;
+    box-shadow: 5px 5px 5px black;
+  }
+  .child3{
+    width: 80%;
+    background:#D2B4DE ;
+    text-align: center;
+    border-radius:15px;
+    color:pink;
+    margin:2%;
+    padding: 2%;
+    box-shadow: 5px 5px 5px black;
+  }
+}
+
+
+
+
+@media only screen and (min-width:481px) and (max-width:760px){
+  body{
+    background:#73e988;
+
+  }
+  .parent{
+    border: 2px solid blue;
+    background:pink;
+    display: flex;
+    flex-wrap: wrap;
+    margin:8%;
+    padding:5%;
+    justify-content: space-around;
+    border-radius:15px;
+  }
+  .child1{
+    width: 40%;
+    background:#6699ff ;
+    text-align: center;
+    color:blue;
+  margin:2%;
+    padding: 2%;
+      box-shadow: 5px 5px 5px black;
+      border-radius:15px;
+  }
+  .child2{
+    width: 40%;
+    background:#6699ff;
+    text-align: center;
+    color:red;
+    margin:2%;
+  padding:  2%;
+  border-radius:15px;
+    box-shadow: 5px 5px 5px black;
+  }
+  .child3{
+    width: 40%;
+    background:#6699ff ;
+    text-align: center;
+    border-radius:15px;
+    color:pink;
+    margin:2%;
+    padding: 2%;
+    box-shadow: 5px 5px 5px black;
+  }
+}
